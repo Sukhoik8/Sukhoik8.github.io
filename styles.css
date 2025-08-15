@@ -1,0 +1,22 @@
+body {
+	background-image: url("https://plus.unsplash.com/premium_photo-1701590725721-add548ecdf61?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9uZG8lMjBkZWwlMjBzaXRpbyUyMHdlYnxlbnwwfHwwfHx8MA%3D%3D");
+	background-size: 2400px;
+}
+
+.xd {
+	width: 500px;
+	padding-left: 200px;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	font-size: 120%;
+}
+
+h2 {
+	font-size: 150%;
+}
+
