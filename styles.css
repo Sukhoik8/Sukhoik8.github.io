@@ -31,3 +31,7 @@ h2 {
 	border-style: solid;
 	border-radius: 50px;
 }
+
+img {
+	text-align: center !important;
+}
