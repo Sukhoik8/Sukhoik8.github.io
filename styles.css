@@ -12,17 +12,29 @@ h1 {
 	text-align: center;
 	font-size: 250%;
 	font-family: Oswald, Verdana;
+	text-shadow: 2px 2px 4px crimson;
+				border-width: 5px;
+			border-color: crimson;
+			border-style: solid;
+			background-image:url("https://i0.wp.com/blerdyotome.com/wp-content/uploads/2016/05/pokenews-banner-new.png?fit=860%2C383&ssl=1");
+			background-size: cover;
+			background-position-y: 140px;
 }
 
 p {
 	font-size: 120%;
 		font-family: Oswald, Verdana;
-
+			text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
 h2 {
 	font-size: 150%;
 		font-family: Oswald, Verdana;
+			text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+			border-width: 5px;
+			border-color: yellow;
+			border-style: solid;
+			background-color: #FCFFC4; 
 }
 
 .dragonite {
