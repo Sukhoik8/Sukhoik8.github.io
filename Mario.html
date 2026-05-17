@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dajuegos.com | Juega y Explora</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- PASO A: Cargamos Ruffle desde su servidor oficial -->
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Dajuegos.com</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#">Explorar</a>
+            <a href="#">Ver más</a>
+        </nav>
+        <p>Descubre los siguientes éxitos aquí en <strong><em><a href="index.html">Dajuegos.com</a></em></strong>.</p>
+    </header>
+
+    <main>
+        <!-- PASO B: Contenedor del Juego Flash -->
+        <article class="contenedor-juego">
+            <h2>Mario Scramble</h2>
+            
+            <!-- Aquí incrustamos el archivo .swf -->
+            <object data="mario.swf" type="application/x-shockwave-flash" class="pantalla-flash">
+                <!-- Ruffle detectará esto automáticamente y lo reemplazará por su reproductor -->
+                <param name="movie" value="mario.swf">
+                <param name="allowScriptAccess" value="always">
+                
+                <!-- Mensaje por si acaso falla el internet del usuario -->
+                <p>Cargando el juego... Si no carga, asegúrate de tener activado JavaScript.</p>
+            </object>
+        </article>
+    </main>
+
+    <aside>
+        <h3>Categorías</h3>
+        <ul>
+            <li><a href="#">Juegos de Acción</a></li>
+            <li><a href="#">Juegos de Terror</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <small>&copy; 2026 Sukhoik8</small>
+    </footer>
+
+</body>
+</html>
