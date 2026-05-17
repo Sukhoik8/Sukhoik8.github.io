@@ -24,6 +24,6 @@ background-color: beige;
 border: 4px solid blue;
 }
 
-.juego {
- overflow: hidden;
+.contenedor-juego {
+text-align: center;
 }
