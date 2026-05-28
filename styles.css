@@ -1,69 +1,95 @@
 body {
-	background-image: url("https://plus.unsplash.com/premium_photo-1701590725721-add548ecdf61?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Zm9uZG8lMjBkZWwlMjBzaXRpbyUyMHdlYnxlbnwwfHwwfHx8MA%3D%3D");
-	background-size: 2400px;
+	/* background-color: #FD8500; */
+	background-image: url("Imagenes/brick.jpg");
+	font-family: Comic-San;
+	color: white;
 }
 
-.xd {
-
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+    line-height: 1.6; /* Hace que el texto sea más cómodo de leer */
 }
 
 h1 {
 	text-align: center;
-	font-size: 250%;
-	font-family: Oswald, Verdana;
-	text-shadow: 2px 2px 4px crimson;
-				border-width: 5px;
-			border-color: crimson;
-			border-style: solid;
-			background-image:url("https://i0.wp.com/blerdyotome.com/wp-content/uploads/2016/05/pokenews-banner-new.png?fit=860%2C383&ssl=1");
-			background-size: cover;
-			background-position-y: 140px;
+border: 1px solid #999999;
+outline: 2px dashed #000000;
+outline-offset: 15px;
+background: black;
+}
+
+
+
+small {
+	text-align: center;
+	position: relative;
+	top: 14px;
 }
 
 p {
-	font-size: 120%;
-		font-family: Oswald, Verdana;
-			text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	font-size: 110%;
 }
 
-h2 {
-	font-size: 150%;
-		font-family: Oswald, Verdana;
-			text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-			border-width: 5px;
-			border-color: yellow;
-			border-style: solid;
-			background-color: #FCFFC4; 
+.selected{
+	font-size: 20px;
+	color: white;
+	background: -webkit-linear-gradient(top, red, black);
+	text-shadow: black 3px 3px 3px;
+	box-shadow: black 4px 4px 5px;
+	border: 2px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 30px;
+	
+	
 }
 
-.dragonite {
-	border-width: 7px;
-	border-color: black;
-	border-style: solid;
-	border-radius: 50px;
-	display: block; 
-	margin-left: auto;
-	margin-right: auto;
+.names .character-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
 }
 
-img {
-		display: block; 
-	margin-left: auto;
-	margin-right: auto;
+/* Este contenedor alinea la imagen y el bloque de texto lado a lado */
+.character-container {
+    display: flex;
+    align-items: flex-start; /* Alinea todo arriba */
+    gap: 15px;               /* El espacio exacto entre la imagen y el texto */
+    margin-bottom: 30px;     /* Espacio entre un personaje y el siguiente */
 }
 
-ul {
-	font-size: 120%;
-		font-family: Oswald, Verdana;
-			text-shadow: 2px 2px 4px red;
+/* Quitamos las posiciones raras y controlamos el ancho de forma segura */
+.Description {
+    width: 720px;
+    margin-top: 0;           /* Evita que el primer párrafo se desalinee de la imagen */
+    margin-bottom: 10px;     /* Espacio controlado entre los dos párrafos de Ray */
 }
 
-.Logito {
-	display: inline-block;
-	align-items: flex-start;
-	gap: 10px;
+.Lectura {
+	font-weight: 900;
+	background: rgba(60, 0, 0, 0.7);
+	border: 10px groove rgba(100, 0, 0, 0.95);
+	line-height: 34px;
 }
 
-#img-pika {
-		width: 60px;
+.Message {
+	font-weight: 500;
+	color: black;
+	background: white;
+	border: 5px outset black;
+	border-radius: 20px;
+	letter-spacing: 2px;
+	padding: 20px;
+	font-family: "Labrada", serif;
+}
+
+#Emma {
+	background: rgb(255, 165, 0);
+}
+
+#Subaru  {
+	background: rgb(0, 128, 255);
 }
