@@ -86,10 +86,18 @@ p {
 	font-family: "Labrada", serif;
 }
 
+.side {
+	width: 550px;
+}
+
 #Emma {
 	background: rgb(255, 165, 0);
 }
 
 #Subaru  {
 	background: rgb(0, 128, 255);
+}
+
+#Elsa {
+	background:purple;
 }
