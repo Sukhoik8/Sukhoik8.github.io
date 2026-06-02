@@ -32,6 +32,35 @@ p {
 	font-size: 110%;
 }
 
+.menu {
+	background: -webkit-linear-gradient(top, #FFC200, #FF8200);
+	border: 2px, dashed, black;
+	color:red;
+	margin:auto;
+	text-align: center;
+	
+	
+}
+
+.image-responsive{
+	height: 320px;
+	border: 2px dashed black;
+	border-radius: 20px;
+	
+	
+}
+
+@media (max-width: 768px) {
+	.character-container{
+		display:flex;
+		flex-direction:column;
+		height: auto;
+		max-width: 100%;
+		gap: 20px;
+		box-sizing: border-box; /* Hace que el padding no rompa tus medidas */
+	}
+}
+
 .selected{
 	font-size: 20px;
 	color: white;
@@ -63,7 +92,7 @@ p {
 
 /* Quitamos las posiciones raras y controlamos el ancho de forma segura */
 .Description {
-    width: 720px;
+    width: 100%;
     margin-top: 0;           /* Evita que el primer párrafo se desalinee de la imagen */
     margin-bottom: 10px;     /* Espacio controlado entre los dos párrafos de Ray */
 }
@@ -89,7 +118,7 @@ p {
 }
 
 .side {
-	width: 550px;
+	width: 100%;
 }
 
 .elsa-thought {
